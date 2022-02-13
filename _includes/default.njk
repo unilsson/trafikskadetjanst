@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ title }}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+  </head>
+  <body>
+  <div class="row">
+    
+    <div class="column left">
+    </div>
+    
+    <div class="column middle">
+      <a href="/">
+        <img src="/images/header.png">	
+      </a>
+      
+      <div class="navbar">
+          <a href="/"> Hem</a> 
+          <a href="/services"> Tjänster</a> 
+          <a href="/rutiner"> Rutiner</a> 
+          <a href="#"> Bildgalleri</a>
+        <a href="#"> Kunder</a>
+        <a href="#"> Miljöpolicy</a>
+        <a href="#"> Kontakt</a>
+        <a href="/about"> Om oss</a>
+        </div>
+
+
+      {{ content | safe}}
+
+  <hr>
+		<div class="column middle footer_left">
+			<h3>KONTAKTA OSS</h3>
+			Tel: 08-646 7040<br/>
+			Fax: 08-603 8838
+			</div>
+		<div class="column middle footer_middle">
+			<h3>ADRESS</h3>
+			Trafikskadetjänst <br/>
+			Prästkragevägen 6 <br/>
+			148 71 Sorunda
+			</div>
+		<div class="column middle footer_right">
+			<h3>E-post</h3>
+			help@trafikskadetjanst.se
+			</div>
+  </div>
+  </body>
+</html>

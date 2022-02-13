@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.navbar {
+  width: 100%;
+  background-color: #0071BC;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+

@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	body {font-family:  Lucida Sans, Arial, Helvetica, sans-serif;}
+	* {
+		box-sizing: border-box;
+	}
+
+#u509-4 {
+ font-size:24px;
+ font-family:Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
+ font-weight:bold;
+ line-height:29px;
+}
+
+#u509-11 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    padding-right: 29px;
+    padding-left: 30px;
+    color: #000000;
+    font-family: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
+}
+	
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left, .right {
+  width: 13%;
+}
+
+.middle {
+  width: 74%;
+}
+
+	.left_content {
+		width: 50%;
+		text-align: center;
+		font-size: 18px;
+		height: 500px;
+	}
+	
+	.right_content {
+		width: 50%;
+		height: 500px;
+		text-align: center;
+	}
+	
+	.footer_left {
+		width: 30%;
+		background-color: white;
+		text-align: left;
+	}
+	
+	.footer_middle {
+		width: 40%;
+		background-color: white;
+		text-align: center;
+	}
+	
+	.footer_right {
+		width: 30%;
+		background-color: white;
+		text-align: right;
+	}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
