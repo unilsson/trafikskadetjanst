@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/navbar.css">
-
     <script src="javascript/image-circulator.js"></script>
   </head>
+
   <body>
   <div class="row">
     
@@ -28,10 +28,10 @@
           <a href="/services"> Tjänster</a> 
           <a href="/rutiner"> Rutiner</a> 
           <a href="#"> Bildgalleri</a>
-        <a href="#"> Kunder</a>
-        <a href="#"> Miljöpolicy</a>
-        <a href="#"> Kontakt</a>
-        <a href="/about"> Om oss</a>
+          <a href="#"> Kunder</a>
+          <a href="#"> Miljöpolicy</a>
+          <a href="#"> Kontakt</a>
+          <a href="/about"> Om oss</a>
       </div>
     </div>
     
@@ -46,7 +46,12 @@
     <div class="column middle">
 
       <div class="column middle left_content">
-        {{ content | safe}}
+        <span id="u509-11">
+          <h2>VAR HAMNAR ERA KOSTNADER FÖR TRAFIKSKADOR?</h2>
+        </span>
+        <span id="u509-8">
+           {{ content | safe}}
+           </span>
       </div>
 
       <div class="column middle right_content">
@@ -59,18 +64,18 @@
     </div>
   </div>
 
-
   <!-- Footer -->
   <div class="row">
     <div class="column left">
     </div>
 
     <div class="column middle">
-      <hr>
+      <hr color="blue">
       <div class="column middle footer_left">
         <h3>KONTAKTA OSS</h3>
         Tel: 08-646 7040<br/>
-        Fax: 08-603 8838
+        Fax: 08-603 8838<br/>
+        &nbsp;
       </div>
       <div class="column middle footer_middle">
         <h3>ADRESS</h3>
@@ -80,7 +85,8 @@
       </div>
       <div class="column middle footer_right">
         <h3>E-post</h3>
-        help@trafikskadetjanst.se
+        help@trafikskadetjanst.se<br/>
+        &nbsp;<br/>&nbsp;
       </div>
     </div>
   </div>

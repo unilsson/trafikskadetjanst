@@ -9,11 +9,20 @@
 #u509-4 {
  font-size:24px;
  font-family:Geneva, Verdana, Lucida Sans, Lucida Sans Unicode, sans-serif;
- font-weight:bold;
  line-height:29px;
 }
 
 #u509-11 {
+    font-size: 18px;
+    text-align: center;
+    line-height: 28px;
+    padding-right: 29px;
+    padding-left: 30px;
+    color: #000000;
+    font-family: Lucida Sans, Lucida Grande, Lucida Sans Unicode, sans-serif;
+}
+
+#u509-8 {
     font-size: 18px;
     text-align: center;
     line-height: 22px;
@@ -25,7 +34,7 @@
 	
 .column {
   float: left;
-  padding: 10px;
+  padding: 0px 0px 5px 0px;
 }
 
 .left, .right {
@@ -41,6 +50,7 @@
 		text-align: center;
 		font-size: 18px;
 		height: 500px;
+		padding: 0px 30px 0px 30px;
 	}
 	
 	.right_content {

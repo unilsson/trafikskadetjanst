@@ -2,7 +2,6 @@
 title: Välkommen till Trafikskadetjänst
 layout: 1stpage.njk
 ---
-## VAR HAMNAR ERA KOSTNADER FÖR TRAFIKSKADOR?
 
 Enligt trafikskadelagen skall alla skador som orsakas av trafikförsäkringspliktiga fordon ersättas, även om fordonet är okänt.
 
