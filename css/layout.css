@@ -58,7 +58,24 @@
 		height: 500px;
 		text-align: center;
 	}
+
+	.left_content2 {
+		width: 50%;
+		text-align: left;
+		font-size: 18px;
+		height: 800px;
+		padding: 0px 30px 0px 125px;
+		background-color: blueviolet;
+		float: left;
+	}
 	
+	.right_content2 {
+		width: 50%;
+		height: 800px;
+		text-align: center;
+		background-color: red;
+		float: left;
+	}
 	.footer_left {
 		width: 30%;
 		background-color: white;
