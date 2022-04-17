@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("images");
     eleventyConfig.addPassthroughCopy("javascript");
     eleventyConfig.addPassthroughCopy("circulator-images");
+    eleventyConfig.addPassthroughCopy("pdf");
     
     
     eleventyConfig.addPassthroughCopy("css");
