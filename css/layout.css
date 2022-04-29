@@ -110,6 +110,30 @@
 		text-align: right;
 	}
 
+	.contact_left {
+		width: 20%;
+		background-color: white;
+		text-align: left;
+	}
+	
+	.contact_middle {
+		width: 60%;
+		background-color: white;
+		text-align: center;
+	}
+	
+	.contact_right {
+		width: 20%;
+		background-color: white;
+		text-align: right;
+	}
+
+	.contact_column {
+		width: 33%;
+		background-color: white
+		text-align: center;
+	}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
