@@ -1,6 +1,6 @@
 # Ignore npm modules
 node_modules/
-
+push-to-git*
 
 # Ignore eleventy output when doing manual tests
 _site/
